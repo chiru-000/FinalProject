@@ -34,7 +34,7 @@ def get_current_location():
 # Load the trained model and vectorizer
 def load_model():
     # Detect the encoding of the file
-    with open(r"C:\Users\vigne\Downloads\Call-Harassment-Detection-Parental-Alert-main\Call-Harassment-Detection-Parental-Alert-main\Threaten call detection.csv", 'rb') as f:
+    with open(r"Threaten call detection.csv", 'rb') as f:
         result = chardet.detect(f.read())
     encoding = result['encoding']
     
