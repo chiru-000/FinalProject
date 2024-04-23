@@ -39,7 +39,7 @@ def load_model():
     encoding = result['encoding']
     
     # Load the data
-    df = pd.read_csv(r"C:\Users\vigne\Downloads\Call-Harassment-Detection-Parental-Alert-main\Call-Harassment-Detection-Parental-Alert-main\Threaten call detection.csv", encoding=encoding)
+    df = pd.read_csv(r"Threaten call detection.csv", encoding=encoding)
     df = df.dropna()
     df = df.sample(frac=1, random_state=42)
     
