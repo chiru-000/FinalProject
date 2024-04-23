@@ -5,3 +5,4 @@ scikit-learn==0.24.2
 pydub==0.25.1
 twilio==9.0.5
 azure-storage-blob==12.9.0
+azure-cli>=2.25.0
